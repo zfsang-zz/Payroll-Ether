@@ -41,7 +41,7 @@
       "absolutePath": "/Users/jeffsang/Projects/Payroll-Ether/contracts/SimpleStorage.sol",
       "exportedSymbols": {
         "SimpleStorage": [
-          632
+          706
         ]
       }
     },
@@ -55,7 +55,7 @@
             ".2"
           ]
         },
-        "id": 611,
+        "id": 685,
         "name": "PragmaDirective",
         "src": "0:23:4"
       },
@@ -71,17 +71,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            632
+            706
           ],
           "name": "SimpleStorage",
-          "scope": 633
+          "scope": 707
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "storedData",
-              "scope": 632,
+              "scope": 706,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -94,12 +94,12 @@
                   "name": "uint",
                   "type": "uint256"
                 },
-                "id": 612,
+                "id": 686,
                 "name": "ElementaryTypeName",
                 "src": "52:4:4"
               }
             ],
-            "id": 613,
+            "id": 687,
             "name": "VariableDeclaration",
             "src": "52:15:4"
           },
@@ -113,7 +113,7 @@
               ],
               "name": "set",
               "payable": false,
-              "scope": 632,
+              "scope": 706,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -125,7 +125,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "x",
-                      "scope": 623,
+                      "scope": 697,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -138,17 +138,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 614,
+                        "id": 688,
                         "name": "ElementaryTypeName",
                         "src": "85:4:4"
                       }
                     ],
-                    "id": 615,
+                    "id": 689,
                     "name": "VariableDeclaration",
                     "src": "85:6:4"
                   }
                 ],
-                "id": 616,
+                "id": 690,
                 "name": "ParameterList",
                 "src": "84:8:4"
               },
@@ -159,7 +159,7 @@
                   ]
                 },
                 "children": [],
-                "id": 617,
+                "id": 691,
                 "name": "ParameterList",
                 "src": "93:0:4"
               },
@@ -184,11 +184,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 613,
+                              "referencedDeclaration": 687,
                               "type": "uint256",
                               "value": "storedData"
                             },
-                            "id": 618,
+                            "id": 692,
                             "name": "Identifier",
                             "src": "99:10:4"
                           },
@@ -198,31 +198,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 615,
+                              "referencedDeclaration": 689,
                               "type": "uint256",
                               "value": "x"
                             },
-                            "id": 619,
+                            "id": 693,
                             "name": "Identifier",
                             "src": "112:1:4"
                           }
                         ],
-                        "id": 620,
+                        "id": 694,
                         "name": "Assignment",
                         "src": "99:14:4"
                       }
                     ],
-                    "id": 621,
+                    "id": 695,
                     "name": "ExpressionStatement",
                     "src": "99:14:4"
                   }
                 ],
-                "id": 622,
+                "id": 696,
                 "name": "Block",
                 "src": "93:25:4"
               }
             ],
-            "id": 623,
+            "id": 697,
             "name": "FunctionDefinition",
             "src": "72:46:4"
           },
@@ -236,7 +236,7 @@
               ],
               "name": "get",
               "payable": false,
-              "scope": 632,
+              "scope": 706,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -249,7 +249,7 @@
                   ]
                 },
                 "children": [],
-                "id": 624,
+                "id": 698,
                 "name": "ParameterList",
                 "src": "134:2:4"
               },
@@ -259,7 +259,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 631,
+                      "scope": 705,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -272,17 +272,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 625,
+                        "id": 699,
                         "name": "ElementaryTypeName",
                         "src": "155:4:4"
                       }
                     ],
-                    "id": 626,
+                    "id": 700,
                     "name": "VariableDeclaration",
                     "src": "155:4:4"
                   }
                 ],
-                "id": 627,
+                "id": 701,
                 "name": "ParameterList",
                 "src": "154:6:4"
               },
@@ -290,7 +290,7 @@
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 627
+                      "functionReturnParameters": 701
                     },
                     "children": [
                       {
@@ -299,36 +299,36 @@
                           "overloadedDeclarations": [
                             null
                           ],
-                          "referencedDeclaration": 613,
+                          "referencedDeclaration": 687,
                           "type": "uint256",
                           "value": "storedData"
                         },
-                        "id": 628,
+                        "id": 702,
                         "name": "Identifier",
                         "src": "174:10:4"
                       }
                     ],
-                    "id": 629,
+                    "id": 703,
                     "name": "Return",
                     "src": "167:17:4"
                   }
                 ],
-                "id": 630,
+                "id": 704,
                 "name": "Block",
                 "src": "161:28:4"
               }
             ],
-            "id": 631,
+            "id": 705,
             "name": "FunctionDefinition",
             "src": "122:67:4"
           }
         ],
-        "id": 632,
+        "id": 706,
         "name": "ContractDefinition",
         "src": "25:166:4"
       }
     ],
-    "id": 633,
+    "id": 707,
     "name": "SourceUnit",
     "src": "0:192:4"
   },
@@ -338,5 +338,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-22T05:34:08.739Z"
+  "updatedAt": "2017-11-22T06:40:39.578Z"
 }
